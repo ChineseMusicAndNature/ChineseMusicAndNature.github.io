@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('sample_1.jpeg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+ <script src="http://www.fastlearning.in/controller/js/jquery-1.9.1.min.js"></script>
+    
+     <script type="text/javascript">
+	$(document).ready(function() {
+    $('label').click(function() {
+        $('label').removeClass('worngans');
+        $(this).addClass('worngans');
+    });
+});
+	</script>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p>Quiz</p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">Summer</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">Moonlight of the Spring River</button></p>
+    <p><button onclick="document.getElementById('high').style.display='block'" class="w3-button w3-black">High mountains and flowing water</button></p>
+    <p><button onclick="document.getElementById('wild').style.display='block'" class="w3-button w3-black">Wild geese descending on the sandbank</button></p>
+  </div>
+
+</div>
+
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+ 
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Music</h1>
+    </div>
+    <div class="w3-container">
+
+<div class="scp-quizzes-main">
+ 
+<div class="scp-quizzes-data">
+  <h3>Q1: Which part in “Summer” is describing the storm?</h3>
+
+<br/>
+    <input type="radio" name="re">
+       <label>A: Part 1</label><br/>
+    <input type="radio"  id="Fastlearning" name="re">
+       <label for="Fastlearning">B: Part 2</label><br/>
+    <input type="radio" name="re">
+       <label>C: Part 3</label> <br/>
+    <input type="radio" name="re">
+     <label>D: None of above</label> 
+ </div>
+ <div class="scp-quizzes-data">
+  <h3>Q2: Why “Summer” is program music?</h3>
+
+<br/>
+    <input type="radio" name="as" id="inculdefile">
+       <label for="inculdefile">A: The theme of this music piece is imitating the sound of nature.</label><br/>
+    <input type="radio"  name="as">
+       <label>B: It is a famous music piece.
+</label><br/>
+    <input type="radio" name="as">
+       <label >C: It is traditional Chinese music.
+</label> <br/>
+    <input type="radio" name="as">
+     <label>D: All of the above</label> 
+ </div>
+  <div class="scp-quizzes-data">
+  <h3>Q3: In part 3, what is the main idea that the composer what to show?</h3>
+
+<br/>
+    <input type="radio" name="qoe">
+       <label >A: Summer is hot and stuffy</label><br/>
+    <input type="radio"  name="qoe">
+       <label>B: Summer makes people angrier
+</label><br/>
+    <input type="radio" name="qoe">
+       <label >C: The bad weather in the summer
+</label> <br/>
+    <input type="radio" name="qoe" id="inculdefil">
+     <label for="inculdefil">D: After the storm comes a calm</label> 
+ </div>
+</div>
+    </div>
+    <div class="w3-container w3-black w3-display-container">
+     
+      <h1>Wrrrrr</h1>
+    </div><div class="w3-container"><div class="scp-quizzes-main">
+    
+<div class="scp-quizzes-data">
+  <h3>Q4: Which instrument do not use in summer?</h3>
+
+<br/>
+    <input type="radio" name="ret">
+       <label>A: Pipa</label><br/>
+    <input type="radio"  id="QWE" name="ret">
+       <label for="QWE">B: Qin</label><br/>
+    <input type="radio" name="ret">
+       <label>C: Drum</label> <br/>
+    <input type="radio" name="ret">
+     <label>D: Erhu</label> 
+ </div>
+ <div class="scp-quizzes-data">
+  <h3>Q5: Which instrument in “Summer” is used to imitate the sound of thunder?</h3>
+
+<br/>
+    <input type="radio" name="asa">
+       <label >A: Pipa</label><br/>
+    <input type="radio"  id="inculdefe" name="asa">
+       <label for="inculdefe">B: Drum
+</label><br/>
+    <input type="radio" name="asa">
+       <label >C: Erhu
+</label> <br/>
+    <input type="radio" name="asa">
+     <label>D: Dizi
+</label> 
+ </div>
+  <div class="scp-quizzes-data">
+  <h3>Q6: What is the meaning of "jianxian"?
+</h3>
+
+<br/>
+    <input type="radio" name="ytt">
+       <label >A: Down-stoke</label><br/>
+    <input type="radio"  name="ytt">
+       <label>B: Tremolo
+</label><br/>
+    <input type="radio" name="ytt">
+       <label >C: Vibrato
+</label> <br/>
+    <input type="radio" name="ytt" id="inculde">
+     <label for="inculde">D: Tangle 2,3 or 4 strings</label> 
+ </div>
+</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Music</h1>
+    </div>
+    <div class="w3-container">
+
+<div class="scp-quizzes-main">
+ 
+<div class="scp-quizzes-data">
+  <h3>Q1: This music is based on a poem with the same name. What is the poet’s name?
+</h3>
+
+<br/>
+    <input type="radio" name="retq">
+       <label>A: Li Bai
+</label><br/>
+    <input type="radio"  id="Fastlear" name="retq">
+       <label for="Fastlear">B: Zhang Ruo Xu</label><br/>
+    <input type="radio" name="retq">
+       <label>C: Bai Ju Yi
+</label> <br/>
+    <input type="radio" name="retq">
+     <label>D. Du Fu
+</label> 
+ </div>
+ <div class="scp-quizzes-data">
+  <h3>Q2: Which of the following scenery has not featured in the music?
+
+</h3>
+
+<br/>
+    <input type="radio" name="asae" >
+       <label >A. Sunset</label><br/>
+    <input type="radio"  name="asae">
+       <label>B: Fishing Boats
+</label><br/>
+    <input type="radio" name="asae" id="ina">
+       <label for="ina" >C: Stone
+</label> <br/>
+    <input type="radio" name="asae">
+     <label>D: Flowers
+</label> 
+ </div>
+  <div class="scp-quizzes-data">
+  <h3>Q3: The first ensemble version was created on…
+</h3>
+
+<br/>
+    <input type="radio" name="ytte">
+       <label >A: 1920s</label><br/>
+    <input type="radio"  name="ytte" id="inculdl">
+       <label for="inculdl">B: 1930s
+</label><br/>
+    <input type="radio" name="ytte">
+       <label >C: 1940s
+
+</label> <br/>
+    <input type="radio" name="ytte" >
+     <label >D: 1950s</label> 
+ </div>
+
+
+<div class="scp-quizzes-data">
+  <h3>Q4: How many parts are there in this music?</h3>
+
+<br/>
+    <input type="radio" name="retqj">
+       <label>A :7</label><br/>
+    <input type="radio"   name="retqj">
+       <label >B: 8</label><br/>
+    <input type="radio" name="retqj">
+       <label>C: 9</label> <br/>
+    <input type="radio" name="retqj" id="Fast">
+     <label for="Fast">D: 10</label> 
+ </div>
+ <div class="scp-quizzes-data">
+  <h3>Q5: Which part is not included in The Moonlight of the Spring River?
+</h3>
+
+<br/>
+    <input type="radio" name="asaey">
+       <label >A: Sound of Reed and Maple in the Autumn (楓荻秋聲)
+</label><br/>
+    <input type="radio"   name="asaey">
+       <label >B: Nightview of the River (臨江晚眺)
+
+</label><br/>
+    <input type="radio" name="asaey">
+       <label >C: Where the Mountain Meets the Moon (關山臨卻月)
+
+</label> <br/>
+    <input type="radio" id="incu" name="asaey">
+     <label for="incu">D: High Mountains and Flowing Water (高山流水)
+</label> 
+ </div>
+</div>
+    </div>
+     <div class="w3-container w3-black w3-display-container">
+     
+      <h1>Instrument</h1>
+    </div>
+     <div class="w3-container"><div class="scp-quizzes-main">
+ 
+ <div class="scp-quizzes-data">
+  <h3>Q6: The music is first played by…
+</h3>
+
+<br/>
+    <input type="radio" name="asaeyk" >
+       <label >A: Zheng</label><br/>
+    <input type="radio"  name="asaeyk">
+       <label>B: Xiao
+</label><br/>
+    <input type="radio" name="asaeyk" id="in">
+       <label for="in" >C: Pipa
+</label> <br/>
+    <input type="radio" name="asaeyk">
+     <label>D: Dizi</label> 
+ </div>
+
+</div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- Menu Modal -->
+<div id="high" class="w3-modal">
+ 
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('high').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Music</h1>
+    </div>
+    <div class="w3-container">
+
+<div class="scp-quizzes-main">
+ 
+<div class="scp-quizzes-data">
+  <h3>Q1: What’s the reason for the creation of this music?
+</h3>
+
+<br/>
+    <input type="radio" name="weeee">
+       <label>A. To praise the extraodinary nature scenery
+</label><br/>
+    <input type="radio" name="weeeee">
+       <label >B. To memorize the meeting of two men</label><br/>
+    <input type="radio" name="weeeee">
+       <label>C. To honor author’s teacher</label> <br/>
+    <input type="radio" name="weeeee"  id="Fas">
+     <label for="Fas">D. To remember the friendship between two men</label> 
+ </div>
+ <div class="scp-quizzes-data">
+  <h3>Q2: How many parts exactly the music Flowing Water have?</h3>
+
+<br/>
+    <input type="radio" name="asaa" >
+       <label>A: 7 parts</label><br/>
+    <input type="radio"  name="asaa">
+       <label>B: 8 parts
+</label><br/>
+    <input type="radio" name="asaa" id="qq">
+       <label  for="qq">C: 9 parts
+</label> <br/>
+    <input type="radio" name="asaa">
+     <label>D: 10 parts</label> 
+ </div>
+  <div class="scp-quizzes-data">
+  <h3>Q3: Who is the author of this music?</h3>
+
+<br/>
+    <input type="radio" name="yttejo">
+       <label >A. Confucius</label><br/>
+    <input type="radio"  name="yttejo">
+       <label>B. Zhong Ziqi
+</label><br/>
+    <input type="radio" name="yttejo" id="iil">
+       <label  for="iil">C. Yu Boya
+</label> <br/>
+    <input type="radio" name="yttejo">
+     <label>D. Ji Kang</label> 
+ </div>
+  
+      
+<div class="scp-quizzes-data">
+  <h3>Q4: How does the music express the spectacular scenery of flowing water?
+</h3>
+
+<br/>
+    <input type="radio" name="retqjmtb">
+       <label>A. By using overtone
+</label><br/>
+    <input type="radio"name="retqjmtb">
+       <label>B. By rhythmic and gentle melody</label><br/>
+    <input type="radio"  id="eee"  name="retqjmtb">
+       <label for="eee">C. By frequent rising and decreasing music tone</label> <br/>
+    <input type="radio" name="retqjmtb">
+     <label>D. By no cut</label> 
+ </div>
+ <div class="scp-quizzes-data">
+  <h3>Q5: When was the music first created?</h3>
+
+<br/>
+    <input type="radio" name="asavv" id="avs" >
+       <label for="avs" >A. Pre-Qin period</label><br/>
+    <input type="radio"  name="asavv">
+       <label >B. Qin dynasty
+</label><br/>
+    <input type="radio" name="asavv">
+       <label >C. Tang dynasty
+</label> <br/>
+    <input type="radio" name="asavv">
+     <label>D. Qing dynasty
+</label> 
+ </div>
+  
+</div>
+    </div>
+    
+    
+    <div class="w3-container w3-black w3-display-container">
+     
+      <h1>Instrument</h1>
+    </div><div class="w3-container"><div class="scp-quizzes-main">
+
+  <div class="scp-quizzes-data">
+  <h3>Q6: Which music instrument can be used to play this piece of music?
+</h3>
+
+<br/>
+    <input type="radio" name="yttejdsa" id="inculdeqqq">
+       <label for="inculdeqqq" >A. Guqin</label><br/>
+    <input type="radio"  name="yttejdsa">
+       <label>B. Erhu
+
+</label><br/>
+    <input type="radio" name="yttejdsa">
+       <label >C. Sheng
+</label> <br/>
+    <input type="radio" name="yttejdsa">
+     <label>D. Dizi</label> 
+ </div>
+</div>
+    </div>
+
+  </div>
+</div>
+
+
+  
+  <!-- Menu Modal -->
+<div id="wild" class="w3-modal">
+ 
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('wild').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Music</h1>
+    </div>
+    <div class="w3-container">
+
+<div class="scp-quizzes-main">
+ 
+  
+  <div class="scp-quizzes-data">
+  <h3>Q1: Which was the song found in the following book?</h3>
+
+<br/>
+    <input type="radio" name="retqjmtw">
+       <label>A:The book of songs 詩經</label><br/>
+    <input type="radio"   name="retqjmtw">
+       <label >B:Yue lu Quan Shu 樂律全書
+</label><br/>
+    <input type="radio" name="retqjmtw">
+       <label>C: Qincao 琴操</label> <br/>
+    <input type="radio" name="retqjmtw" id="ZZZ">
+     <label for="ZZZ">D: Guyin Zhengzhong 古音正宗</label> 
+ </div>
+ <div class="scp-quizzes-data">
+  <h3>Q2: What playing technique is used in the music ?</h3>
+
+<br/>
+    <input type="radio" id="nculdefe" name="asa">
+       <label for="nculdefe">A: An</label><br/>
+    <input type="radio"   name="asa">
+       <label >B: Pluck
+</label><br/>
+    <input type="radio" name="asa">
+       <label >C: Tuning
+</label> <br/>
+    <input type="radio" name="asa">
+     <label>D: Tantiao
+</label> 
+ </div>
+  <div class="scp-quizzes-data">
+  <h3>Q3: What symbolic meaning does it reflect?
+
+</h3>
+
+<br/>
+    <input type="radio" name="yttejda"id="inlde">
+       <label  for="inlde">A: To express sense of sorrowness and pursuit of freedom as a hermit</label><br/>
+    <input type="radio"  name="yttejda">
+       <label>B: To demonstrate the rapid lose of time and sense of pity
+</label><br/>
+    <input type="radio" name="yttejda">
+       <label >C: To create a sense of peacefulness for the lower class citizens at the ancient time 
+
+</label> <br/>
+    <input type="radio" name="yttejda" >
+     <label>D: To describe the great ambition and success of the emperor. </label> 
+ </div>
+  
+</div>
+    </div>
+    <div class="w3-container w3-black w3-display-container">
+     
+      <h1>Instrument</h1>
+    </div><div class="w3-container"><div class="scp-quizzes-main">
+    
+<div class="scp-quizzes-data">
+  <h3>Q4: Which music instrument is used in the music?
+</h3>
+
+<br/>
+    <input type="radio" name="retqjmtwi">
+       <label>A: Pipa</label><br/>
+    <input type="radio"  id="F" name="retqjmtwi">
+       <label for="F">B: Guqin</label><br/>
+    <input type="radio" name="retqjmtwi">
+       <label>C: Erhu</label> <br/>
+    <input type="radio" name="retqjmtwi">
+     <label>D: Guzheng</label> 
+ </div>
+ <div class="scp-quizzes-data">
+  <h3>Q5: this music instrument was usually used by who in the ancient time?
+</h3>
+
+<br/>
+    <input type="radio" name="as" id="i">
+       <label for="i">A: the noblemen</label><br/>
+    <input type="radio"  name="as">
+       <label>B: the emperor 
+</label><br/>
+    <input type="radio" name="as">
+       <label >C: the citizens
+</label> <br/>
+    <input type="radio" name="as">
+     <label>D: the soldiers</label> 
+ </div>
+  <div class="scp-quizzes-data">
+  <h3>Q6: what kind of feelings does it create?</h3>
+
+<br/>
+    <input type="radio" name="yttejdaq">
+       <label >A: romantic and softness</label><br/>
+    <input type="radio"  name="yttejdaq">
+       <label>B: excitement and dynamic
+</label><br/>
+    <input type="radio" name="yttejdaq" id="ccc">
+       <label for="ccc">C: tranquility and sorrowness
+</label> <br/>
+    <input type="radio" name="yttejdaq" >
+     <label >D:  peacefulness and satisfaction
+</label> 
+ </div>
+</div>
+    </div>
+
+  </div>
+</div>
+
+  
+  
+  
+  
+
+</body>
+</html>
